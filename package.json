@@ -1,0 +1,19 @@
+{
+  "name": "trabajofinalpag",
+  "version": "1.0.0",
+  "description": "Este trabajo final subiré mi pagina web.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cal3xis/TrabajoFinalPag.git"
+  },
+  "author": "Hemil A. Del Orbe Medrano <calexisraymike@gmail.com> (https://github.com/Cal3xis/TrabajoFinalPag)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Cal3xis/TrabajoFinalPag/issues"
+  },
+  "homepage": "https://github.com/Cal3xis/TrabajoFinalPag#readme"
+}
