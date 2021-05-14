@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Cal3xis/TrabajoFinalPag/issues"
   },
-  "homepage": "https://github.com/Cal3xis/TrabajoFinalPag#readme"
+  "homepage": "https://github.com/Cal3xis/TrabajoFinalPag#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
