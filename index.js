@@ -38,15 +38,21 @@ const PORT = process.env.PORT || 3000;
 
 
 app. get ('/',(req, res)=>{
-    res.render('pagina');
+    res.render('pagina',{
+        ruta:"/Styles/EstiloPag.css"
+    });
 })
 
 app. get ('/Nosotros',(req, res)=>{
-    res.render('nosotros')
+    res.render('nosotros',{
+        ruta: "/Styles/EstiloNosotros.css"
+    })
 })
 
 app. get ('/Contacto',(req, res)=>{
-    res.render('contacto');
+    res.render('contacto',{
+        ruta:"/Styles/EstiloContacto.css"
+    });
 })
 
 app. post ('/Contacto', async(req, res)=>{
@@ -66,14 +72,20 @@ app. post ('/Contacto', async(req, res)=>{
 })
 
 app. get ('/Servicios',(req, res)=>{
-    res.render('servicios');
+    res.render('servicios',{
+        ruta:'/Styles/EstilosServicios.css'
+    });
 })
 
 app. get ('/Proyectos',(req, res)=>{
-    res.render('proyectos')
+    res.render('proyectos',{
+        ruta:'/Styles/EstiloProyectos.css'
+    })
 })
 app. use ((req, res)=>{
-    res.render('404');
+    res.render('404',{
+        ruta:'/Styles/Estilos404.css'
+    });
 })
 
 app.listen(PORT, ()=>{
